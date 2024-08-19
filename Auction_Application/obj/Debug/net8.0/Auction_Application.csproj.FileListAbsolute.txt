@@ -260,3 +260,4 @@ E:\CODING\C# Projects\Auction_Application\Auction_Application\bin\Debug\net8.0\r
 E:\CODING\C# Projects\Auction_Application\Auction_Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\CODING\C# Projects\Auction_Application\Auction_Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\CODING\C# Projects\Auction_Application\Auction_Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\CODING\C# Projects\Auction_Application\Auction_Application\obj\Debug\net8.0\Auction_Application.sourcelink.json

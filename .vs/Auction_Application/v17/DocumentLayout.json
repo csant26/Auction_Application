@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\views\\listings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\data\\services\\ilistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\data\\services\\ilistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\data\\services\\listingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\data\\services\\listingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\models\\listingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\models\\listingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\data\\services\\ilistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\data\\services\\ilistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\views\\listings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\views\\listings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|e:\\coding\\c# projects\\auction_application\\auction_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB63C79-ADB2-4FC0-AB2E-14E691CABD62}|Auction_Application\\Auction_Application.csproj|solutionrelative:auction_application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,65 +62,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Program.cs",
+              "RelativeDocumentMoniker": "Auction_Application\\Program.cs",
+              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Program.cs",
+              "RelativeToolTip": "Auction_Application\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T09:52:24.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListingService.cs",
+              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\ListingService.cs",
+              "RelativeDocumentMoniker": "Auction_Application\\Data\\Services\\ListingService.cs",
+              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\ListingService.cs",
+              "RelativeToolTip": "Auction_Application\\Data\\Services\\ListingService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T09:49:22.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IListingService.cs",
+              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\IListingService.cs",
+              "RelativeDocumentMoniker": "Auction_Application\\Data\\Services\\IListingService.cs",
+              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\IListingService.cs",
+              "RelativeToolTip": "Auction_Application\\Data\\Services\\IListingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T09:48:56.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListingVM.cs",
+              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Models\\ListingVM.cs",
+              "RelativeDocumentMoniker": "Auction_Application\\Models\\ListingVM.cs",
+              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Models\\ListingVM.cs",
+              "RelativeToolTip": "Auction_Application\\Models\\ListingVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T09:33:59.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Views\\Listings\\Create.cshtml",
+              "RelativeDocumentMoniker": "Auction_Application\\Views\\Listings\\Create.cshtml",
+              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Views\\Listings\\Create.cshtml",
+              "RelativeToolTip": "Auction_Application\\Views\\Listings\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T09:29:56.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Views\\Listings\\Index.cshtml",
               "RelativeDocumentMoniker": "Auction_Application\\Views\\Listings\\Index.cshtml",
               "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Views\\Listings\\Index.cshtml",
               "RelativeToolTip": "Auction_Application\\Views\\Listings\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-19T08:55:20.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Program.cs",
-              "RelativeDocumentMoniker": "Auction_Application\\Program.cs",
-              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Program.cs",
-              "RelativeToolTip": "Auction_Application\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:20:47.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListingService.cs",
-              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\ListingService.cs",
-              "RelativeDocumentMoniker": "Auction_Application\\Data\\Services\\ListingService.cs",
-              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\ListingService.cs",
-              "RelativeToolTip": "Auction_Application\\Data\\Services\\ListingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:43:04.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IListingService.cs",
-              "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\IListingService.cs",
-              "RelativeDocumentMoniker": "Auction_Application\\Data\\Services\\IListingService.cs",
-              "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Data\\Services\\IListingService.cs",
-              "RelativeToolTip": "Auction_Application\\Data\\Services\\IListingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:32:32.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ListingsController.cs",
               "DocumentMoniker": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Controllers\\ListingsController.cs",
               "RelativeDocumentMoniker": "Auction_Application\\Controllers\\ListingsController.cs",
               "ToolTip": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\Controllers\\ListingsController.cs",
               "RelativeToolTip": "Auction_Application\\Controllers\\ListingsController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABEAAAA5AAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T08:30:39.583Z",
               "EditorCaption": ""
