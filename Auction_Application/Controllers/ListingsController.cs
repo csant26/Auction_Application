@@ -3,6 +3,7 @@ using Auction_Application.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 
 namespace Auction_Application.Controllers
 {
@@ -36,6 +37,25 @@ namespace Auction_Application.Controllers
 
             return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(),pageNumber??1,pageSize));
         }
+
+        public async Task<IActionResult> MyListings(int? pageNumber)
+        {
+            var applicationDbContext = _listingService.GetAll();
+
+            int pageSize = 3;
+
+            return View("Index",await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l=>l.IdentityUserId==User.FindFirstValue(ClaimTypes.NameIdentifier)).AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+
+        public async Task<IActionResult> MyBids(int? pageNumber)
+        {
+            var applicationDbContext = _bidService.GetAll();
+
+            int pageSize = 3;
+
+            return View(await PaginatedList<Bid>.CreateAsync(applicationDbContext.Where(l => l.IdentityUserId == User.FindFirstValue(ClaimTypes.NameIdentifier)).AsNoTracking(), pageNumber ?? 1, pageSize));
+        }
+
 
         //GET: Listings/Details/5
         public async Task<IActionResult> Details(int? id)
