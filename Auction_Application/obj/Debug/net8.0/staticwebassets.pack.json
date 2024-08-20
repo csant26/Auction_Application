@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Images\\preeza.JPG"
     },
     {
+      "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\Images\\www.YTS.MX.jpg",
+      "PackagePath": "staticwebassets\\Images\\www.YTS.MX.jpg"
+    },
+    {
       "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

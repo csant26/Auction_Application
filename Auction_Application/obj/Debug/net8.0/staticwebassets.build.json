@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ncnEr/JcOicAzwVady915SE6Nw1Q7GGjUUc7F3bL6+A=",
+  "Hash": "iMwVPQmjlqmkGt4azlfIxnBNHkRTVQHq/gJm/3G+PWo=",
   "Source": "Auction_Application",
   "BasePath": "_content/Auction_Application",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\preeza.JPG"
+    },
+    {
+      "Identity": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\Images\\www.YTS.MX.jpg",
+      "SourceId": "Auction_Application",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\",
+      "BasePath": "_content/Auction_Application",
+      "RelativePath": "Images/www.YTS.MX.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\www.YTS.MX.jpg"
     },
     {
       "Identity": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\js\\site.js",

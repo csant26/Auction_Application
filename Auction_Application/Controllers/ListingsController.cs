@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Auction_Application.Data;
+﻿using Auction_Application.Data.Services;
 using Auction_Application.Models;
-using Auction_Application.Data.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Auction_Application.Controllers
 {
@@ -29,24 +23,22 @@ namespace Auction_Application.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: Listings/Details/5
-        //public async Task<IActionResult> Details(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
+        //GET: Listings/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-        //    var listing = await _context.Listings
-        //        .Include(l => l.User)
-        //        .FirstOrDefaultAsync(m => m.Id == id);
-        //    if (listing == null)
-        //    {
-        //        return NotFound();
-        //    }
+            var listing = await _listingService.GetById(id);
+            if (listing == null)
+            {
+                return NotFound();
+            }
 
-        //    return View(listing);
-        //}
+            return View(listing);
+        }
 
         // GET: Listings/Create
         public IActionResult Create()
