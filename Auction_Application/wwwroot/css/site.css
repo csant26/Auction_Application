@@ -19,4 +19,16 @@ html {
 
 body {
   margin-bottom: 60px;
+  padding:10px;
+  background-color:cornsilk;
+}
+nav{
+    background-color:burlywood;
+    border:1px solid black;
+}
+.nav-link{
+    color:darkred;
+}
+.nav-link:hover{
+    color:white;
 }

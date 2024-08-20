@@ -2,6 +2,7 @@
 using Auction_Application.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Auction_Application.Controllers
 {
@@ -9,18 +10,31 @@ namespace Auction_Application.Controllers
     {
         private readonly IListingService _listingService;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IBidService _bidService;
+        private readonly ICommentService _commentService;
 
-        public ListingsController(IListingService listingService, IWebHostEnvironment webHostEnvironment)
+        public ListingsController(IListingService listingService, IWebHostEnvironment webHostEnvironment, IBidService bidService, ICommentService commentService)
         {
             _listingService = listingService;
             _webHostEnvironment = webHostEnvironment;
+            _bidService = bidService;
+            _commentService = commentService;   
         }
 
         // GET: Listings
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? pageNumber, string searchString)
         {
             var applicationDbContext = _listingService.GetAll();
-            return View(await applicationDbContext.ToListAsync());
+
+            int pageSize = 3;
+
+            if (!searchString.IsNullOrEmpty())
+            {
+                applicationDbContext = applicationDbContext.Where(a => a.Title.Contains(searchString));
+                return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(), pageNumber ?? 1, pageSize));
+            }
+
+            return View(await PaginatedList<Listing>.CreateAsync(applicationDbContext.Where(l => l.IsSold == false).AsNoTracking(),pageNumber??1,pageSize));
         }
 
         //GET: Listings/Details/5
@@ -75,6 +89,40 @@ namespace Auction_Application.Controllers
             }
             return View(listing);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddBid([Bind("Id, Price, ListingId, IdentityUserId")] Bid bid)
+        {
+            if(ModelState.IsValid)
+            {
+                await _bidService.Add(bid);
+            }
+            var listing = await _listingService.GetById(bid.ListingId);
+            listing.Price = bid.Price;
+            await _listingService.SaveChanges();
+            return View("Details", listing); 
+        }
+        
+        public async Task<IActionResult> CloseBid(int id)
+        {
+            var listing = await _listingService.GetById(id);
+            listing.IsSold = true;
+            await _listingService.SaveChanges();
+            return View("Details", listing);
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddComment([Bind("Id, Content, ListingId, IdentityUserId")] Comment comment)
+        {
+            if (ModelState.IsValid)
+            {
+                await _commentService.Add(comment);
+            }
+            var listing = await _listingService.GetById(comment.ListingId);
+            return View("Details", listing);
+        }
+
 
         //// GET: Listings/Edit/5
         //public async Task<IActionResult> Edit(int? id)

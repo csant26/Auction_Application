@@ -75,7 +75,7 @@
                 {
                     @if (Model.IsSold == false)
                     {
-                        <a asp-action="CloseBidding" asp-route-id="@Model.Id">Close Bidding</a>
+                        <a asp-action="CloseBid" asp-route-id="@Model.Id">Close Bidding</a>
                     }
                 }
             }
@@ -112,11 +112,14 @@ else
 <br />
 
 <div class="container">
-    <h6>Comments</h6>
-    @foreach(var comment in Model.Comments)
+    @if (Model.Comments != null)
     {
-        <div style="border:1px solid lightblue; margin:10px; padding:10px; border-radius:10px;width:40%;">
-            <p>@comment.Content-@comment.User.UserName</p>
-        </div>
+        <h6>Comments</h6>
+        @foreach (var comment in Model.Comments)
+        {
+            <div style="border:1px solid lightblue; margin:10px; padding:10px; border-radius:10px;width:40%;">
+                <p>@comment.Content - @(comment.User?.UserName ?? "Unknown User")</p>
+            </div>
+        }
     }
 </div>
