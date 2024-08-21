@@ -5,16 +5,8 @@
       "PackagePath": "staticwebassets\\Auction_Application.bundle.scp.css"
     },
     {
-      "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\Images\\kaneki x rize s1e12.JPG",
-      "PackagePath": "staticwebassets\\Images\\kaneki x rize s1e12.JPG"
-    },
-    {
-      "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\Images\\preeza.JPG",
-      "PackagePath": "staticwebassets\\Images\\preeza.JPG"
-    },
-    {
-      "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\Images\\www.YTS.MX.jpg",
-      "PackagePath": "staticwebassets\\Images\\www.YTS.MX.jpg"
+      "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\Images\\plane.jpeg",
+      "PackagePath": "staticwebassets\\Images\\plane.jpeg"
     },
     {
       "Id": "E:\\CODING\\C# Projects\\Auction_Application\\Auction_Application\\wwwroot\\css\\site.css",
